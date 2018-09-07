@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"name": "Rackspace Email",
+		"price": 2.00
+	},
+	{
+		"id": 2,
+		"name": "Rackspace Email Plus",
+		"price": 3.50
+	},
+	{
+		"id": 3,
+		"name": "Microsoft Exchange",
+		"price": 7.99
+	}
+]

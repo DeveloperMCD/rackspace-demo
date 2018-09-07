@@ -1,0 +1,126 @@
+:local(.bpApp) {
+  margin: 20px;
+}
+
+:local(.bpMainDiv) {
+  margin: 40px;
+}
+
+:local(.bpDiv) {
+	background:#cfcfcf;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+    border: 2px dotted #bababa; 
+}
+
+:local(.formStyle) {
+	background:#cfcfcf;
+	width:40%;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  	padding-left: 10px;
+	padding-right: 10px;
+	display:inline-block;
+    border: 2px solid #aaaaaa; 
+}
+
+:local(.containerForm) {
+	text-align:center;
+}
+
+:local(.innerContainer) {
+	margin:auto;
+	width:90%;
+}
+
+:local(.inputStyle) {
+	margin:10px;
+	border-radius:4px;
+}
+
+
+:local(.bpImg) {
+  height: 64px;
+}
+
+:local(.bpItems) {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.25em;
+  width:80%;
+  display:inline-block;
+}
+
+:local(.lineItemPrice) {
+	text-align:right;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.25em;
+	display:inline-block;
+}
+
+:local(.lineItemAddlPrice) {
+	color:#888;
+	text-align:right;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.25em;
+	display:inline-block;
+}
+
+:local(.totalPrice) {
+	text-align:right;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.5em;
+	display:inline-block;
+	font-weight:bold;
+}
+
+:local(.bpRight) {
+  position: relative;
+  float: right;
+}
+
+:local(.panelStyle) {
+	width:30%;
+	display:inline-block;
+	margin:1.5%;
+}
+
+:local(.appTitle) {
+	margin-top:20px;
+	height:80px;
+}
+
+:local(.whiteText) {
+	color: #fff;
+}
+
+.btn-success-custom {
+    color: #fff;
+    background-color: #5aaa28;
+    border-color: #5aaa28;
+}
+
+.btn-info-custom {
+	margin-left:20px;
+	margin-right:20px;
+    color: #fff;
+    background-color: #4444cc;
+    border-color: #2222aa;
+}
+
+.btn-error-custom {
+	margin-left:20px;
+	margin-right:20px;
+    color: #fff;
+    background-color: #aa0000;
+    border-color: #550000;
+}

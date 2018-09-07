@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Khand';
+  src: url('fonts/Khand-Regular/Khand-Regular.eot');
+  src: url('fonts/Khand-Regular/Khand-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Khand-Regular/Khand-Regular.woff2') format('woff2'), url('fonts/Khand-Regular/Khand-Regular.woff') format('woff'), url('fonts/Khand-Regular/Khand-Regular.ttf') format('truetype'), url('fonts/Khand-Regular/Khand-Regular.svg#Khand-Regular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khand';
+  src: url('fonts/Khand-Bold/Khand-Bold.eot');
+  src: url('fonts/Khand-Bold/Khand-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Khand-Bold/Khand-Bold.woff2') format('woff2'), url('fonts/Khand-Bold/Khand-Bold.woff') format('woff'), url('fonts/Khand-Bold/Khand-Bold.ttf') format('truetype'), url('fonts/Khand-Bold/Khand-Bold.svg#Khand-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khand';
+  src: url('fonts/Khand-Black/Khand-Black.eot');
+  src: url('fonts/Khand-Black/Khand-Black.eot?#iefix') format('embedded-opentype'), url('fonts/Khand-Black/Khand-Black.woff2') format('woff2'), url('fonts/Khand-Black/Khand-Black.woff') format('woff'), url('fonts/Khand-Black/Khand-Black.ttf') format('truetype'), url('fonts/Khand-Black/Khand-Black.svg#Khand-Black') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
