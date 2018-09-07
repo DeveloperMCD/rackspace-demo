@@ -4,7 +4,7 @@ import { Well } from 'react-bootstrap';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import axios from 'axios';
-import { inspect } from 'util'
+import { inspect } from 'util';
 
 import store from "./rdx/index";
 import { modifyStage } from "./rdx/actions/index";
@@ -18,6 +18,7 @@ let { submitBtnStyle } = require("./styles/styles");
 import NumberFormat from 'react-number-format';
 
 var PRODUCTS = require('./data/products.json');
+const CircularJSON = require('circular-json');
 
 
 class App extends Component {
@@ -56,7 +57,7 @@ class App extends Component {
 			password: this.refs.password,
 			password2: this.refs.password2
 		};
-
+		
 		if (this.validateFields()) {
 			// Fields are properly filled in
 
@@ -72,10 +73,11 @@ class App extends Component {
 			axios
 			.post("https://postman-echo.com/post", { fields })
 			.then((response) => {
-				console.log(inspect(response));
+				console.log("Response: " + inspect(response));
 			})
 			.catch((error) => {
-				console.log(inspect(error));
+				let jsonError = CircularJSON.stringify(error);
+				console.log("Error: " + jsonError);
 			});			
 		}
 	}	
